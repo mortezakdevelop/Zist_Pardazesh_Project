@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ZistPardazeshNasir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="in_soft_nbp">در نرم افزار NBP</string>
+    <string name="analysis_the_health">وضعیت سلامتی خود را بررسی کنید</string>
+    <string name="analysis_medical_measured">تحلیل پزشکی اندازه گیری ها را ببینید</string>
+    <string name="status_the_health">وضعیت سلامتی خود را</string>
+    <string name="share_with_another">با دیگران به اشتراک بگذارید</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="create_account">ساخت حساب کاربری</string>
+    <string name="phone_number">شماره تلفن همراه</string>
+    <string name="create_account_two">ایجاد حساب کاربری</string>
+    <string name="name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="birthday">تاریخ تولد</string>
+    <string name="gender">جنسیت</string>
+    <string name="back">بازگشت</string>
+    <string name="input">ورود</string>
+    <string name="confirm">تایید</string>
+    <string name="send_again">ارسال مجدد</string>
+    <string name="have_account">حساب کاربری دارم</string>
+    <string name="confirm_auth_user">تایید هویت کاربر</string>
+    <string name="no_find_account">حساب کاربری یافت نشد</string>
+    <string name="btn_create_account_dialog">ساخت حساب</string>
+    <string name="if_register_now">اگر تاکنون در برنامه ثبت نام نکرده اید</string>
+    <string name="first_create_account">ابتدا حساب کاربری خود را ایجاد کنید</string>
+    <string name="body_confirm_auth_user">برای شماره تلفن همراه شما یک کد تایید هویت از طریق پیامک ارسال می شود.لطفا آن را در کادر زیر وارد کنید</string>
+
+
+</resources>

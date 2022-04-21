@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/btn_back_dialog_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/btn_create_account_dialog_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/default_pager_dot.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/dialog_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/ic_cirvle_gray.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/login_et_phone_bg.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/next_btn_bg.xml" value="0.3082051282051282" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/selected_pager_dot.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/splash_screen_bg.xml" value="0.3728205128205128" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/drawable/tab_pager_selector.xml" value="0.3828125" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout-land/fragment_page_one.xml" value="0.22" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_no_internet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_page_one.xml" value="0.18" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_page_three.xml" value="0.1" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_page_two.xml" value="0.25" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_user_authentication.xml" value="0.25" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/fragment_view_pager.xml" value="0.3625" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/ZistPardazeshNasir/app/src/main/res/layout/page_four.xml" value="0.296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

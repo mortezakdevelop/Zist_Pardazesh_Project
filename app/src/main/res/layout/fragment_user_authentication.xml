@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.UserAuthenticationFragment">
+
+            <TextView
+                android:id="@+id/tv_user_auth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:fontFamily="@font/koodak_bold"
+                android:gravity="center"
+                android:text="@string/confirm_auth_user"
+                android:textColor="#083E55"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.331"
+                tools:layout_editor_absoluteX="0dp" />
+
+
+            <TextView
+                android:id="@+id/user_auth_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="41dp"
+                android:fontFamily="@font/koodak_bold"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/body_confirm_auth_user"
+                android:textColor="#094660"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_auth" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/pin"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="38dp"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:itemBackground="#F3F8FB"
+                android:padding="4dp"
+                android:textColor="#083E55"
+                android:textSize="18sp"
+                android:fontFamily="@font/koodak_bold"
+                android:textStyle="bold"
+                app:cursorWidth="2dp"
+                app:hideLineWhenFilled="true"
+                app:itemCount="5"
+                app:itemHeight="33dp"
+                app:cursorColor="#F3F8FB"
+                app:itemRadius="8dp"
+                app:itemSpacing="10dp"
+                app:itemWidth="36dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/user_auth_body"
+                app:lineColor="@color/white"
+                app:lineWidth="2dp"
+                app:viewType="rectangle" />
+
+            <TextView
+                android:id="@+id/tv_send_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/koodak_bold"
+                android:text="@string/send_again"
+                android:textColor="#66083E55"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/pin"
+                app:layout_constraintTop_toBottomOf="@id/pin" />
+
+            <TextView
+                android:id="@+id/tv_time_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/koodak_bold"
+                android:text="1:05"
+                android:textColor="#083E55"
+                app:layout_constraintStart_toStartOf="@id/pin"
+                app:layout_constraintTop_toBottomOf="@id/pin" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="90dp"
+                android:background="@drawable/next_btn_bg"
+                android:fontFamily="@font/koodak_bold"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/tv_send_again" />
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/koodak_bold"
+                android:text="@string/back"
+                android:textColor="#E60E6B94"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@id/btn_confirm"
+                app:layout_constraintStart_toStartOf="@id/btn_confirm"
+                app:layout_constraintTop_toBottomOf="@id/btn_confirm" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

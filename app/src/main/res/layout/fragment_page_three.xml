@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.PageThreeFragment">
+
+            <TextView
+                android:id="@+id/tv_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/koodak_bold"
+                android:gravity="end"
+                android:paddingStart="22dp"
+                android:paddingTop="18dp"
+                android:text="@string/input"
+                android:textColor="#0E6B94"
+                android:textSize="19sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/iv_dr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dr"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_input"
+                app:layout_constraintVertical_bias="0.259" />
+
+            <TextView
+                android:id="@+id/tv_in_soft_nbp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/koodak_bold"
+                android:text="@string/in_soft_nbp"
+                android:textColor="#272727"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_dr"
+                app:layout_constraintVertical_bias="0.195" />
+
+            <TextView
+                android:id="@+id/tv_analysis_the_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/koodak_bold"
+                android:text="@string/analysis_the_health"
+                android:textColor="#272727"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@id/tv_in_soft_nbp"
+                app:layout_constraintStart_toStartOf="@id/tv_in_soft_nbp"
+                app:layout_constraintTop_toBottomOf="@id/tv_in_soft_nbp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="90dp"
+                android:background="@drawable/next_btn_bg"
+                android:fontFamily="@font/koodak_bold"
+                android:text="بعدی"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_in_soft_nbp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>
