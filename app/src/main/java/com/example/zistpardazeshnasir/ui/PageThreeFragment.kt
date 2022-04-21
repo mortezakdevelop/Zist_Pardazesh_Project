@@ -34,6 +34,7 @@ lateinit var fragmentPageThreeBinding: FragmentPageThreeBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         fragmentPageThreeBinding.tvInput.setOnClickListener {
+            findNavController().navigate(R.id.action_viewPagerFragment_to_loginFragment)
         }
     }
 }
